@@ -1,0 +1,59 @@
+/*common component*/
+html,body{
+    height:100%;
+}
+.lead{
+    font-weight: normal;
+}
+/*common component*/
+/*index*/
+.jumbotron {
+    background-image: url("image/tennisplayer.jpg");
+    background-size: cover;
+    height: 620px;  
+  }
+/*index*/
+
+
+
+/*results*/
+  #main-content{
+      padding: 40px;
+      text-align: center;
+  }
+  
+  #year{
+    width: 200px;
+  }
+  #year-dropdown{
+    width: 200px;
+  }
+  #tournament{
+      margin-left: 100px;
+      width: 250px;
+  }
+  #tournament-dropdown{
+      width: 250px;
+  }
+  #surface{
+    margin-left: 100px;
+    width: 250px;
+}
+#surface-dropdown{
+    width: 250px;
+}
+#results-table{
+    margin: 60px 0;
+}
+/*results*/
+
+/*stats*/
+#stats-heading{
+    text-align: left;
+    margin-top:50px;
+    margin-bottom: 0;
+}
+#stats-table{
+    margin-top:20px;
+}
+/*stats*/
