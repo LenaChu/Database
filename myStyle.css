@@ -16,44 +16,43 @@ html,body{
 
 
 
-/*results*/
+/*results starts*/
   #main-content{
-      padding: 40px;
       text-align: center;
   }
-  
-  #year{
-    width: 200px;
-  }
-  #year-dropdown{
-    width: 200px;
-  }
-  #tournament{
-      margin-left: 100px;
-      width: 250px;
-  }
-  #tournament-dropdown{
-      width: 250px;
-  }
-  #surface{
-    margin-left: 100px;
-    width: 250px;
-}
-#surface-dropdown{
-    width: 250px;
-}
-#results-table{
-    margin: 60px 0;
-}
-/*results*/
+/*results ends*/
 
-/*stats*/
-#stats-heading{
-    text-align: left;
-    margin-top:50px;
-    margin-bottom: 0;
+
+/*stats starts*/
+/*stats ends*/
+
+
+/*single match starts*/
+#match-stats{
+    height: 60px;
 }
-#stats-table{
-    margin-top:20px;
+#single-match-title{
+    height: 80px;
 }
-/*stats*/
+/*single match ends*/
+
+
+/*players stars*/
+/*players ends*/
+
+/*player profile starts*/
+#player-profile-row{
+    height: 300px;
+    font-size: 20px;
+}
+#tennis-player{
+    max-width: 100%;
+    max-height: 100%;
+}
+/*player profile ends*/
+
+@media only screen and (max-width: 500px) {
+    #player-profile-row{
+        height: auto;
+        font-size: 16px;
+    }
